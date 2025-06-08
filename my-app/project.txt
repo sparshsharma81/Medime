@@ -144,3 +144,24 @@ so now we have added the database--using prisma
 
 now it is the time to add the subscrition thing
 basically ye clerk k new update me aaya hai..subscription thing...
+
+
+
+
+
+Great..now after creating the paymet thing..we can now create server actions 
+
+
+server actions in next js is like backend...
+
+
+this npm i date-fns --- it is a popular library for date MANAGEMENT
+basically in our project we can use it to properly find the allcated date in the subscription plans..
+
+
+
+ROUTING IN NEXTJS 
+
+[folder] --- dynamic route segment 
+[ ...folder] --- catch-all route segment 
+[[ ...folder]] -- optional catch -all route segment 
