@@ -28,3 +28,14 @@ npx shadcn@latest add button     ----THIS WAY..WE CAN INSTALL THE BUTTON AND USE
 
 
 so in order to install any component..we can simply use npx -shadcn@latest add componet_name     ----USING THIS..WE CAN INSTALL ANY COMPONENT USING SHADCN 
+
+now after we have installed the button...we will be using the dark mode themes 
+so for that ...
+
+
+npx install next-themes 
+
+
+
+now after adding them...now we are adding 
+npx shadcn@latest add alert badge card dialog input label select separator sonner tabs textarea

@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google"; //this is basically the inner font jo hamne import kiya hai..jise ham use kar rahe hai
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 
 // HERE WE WILL USE THE DEFAULT FONT 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,9 +14,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+    {/* //ye basically warnings ko daba dega */}
+
+    {/* //ye theme provider basically dark mode k liye hai..shadcn ui se import kiya hai.. */}
+    {/* all components are adapting to the dark mode  */}
       <body
         className={`${inter.className}`}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark" 
+            enableSystem
+            disableTransitionOnChange
+          >
           {/* yaha pr ham header component add karege  */}
           <main className="min-h-screen">
 
@@ -32,6 +43,7 @@ export default function RootLayout({ children }) {
               <p>Made with Next-js from sparsh sharma</p>
             </div>
           </footer>
+          </ThemeProvider>
       </body>
     </html>
   );
