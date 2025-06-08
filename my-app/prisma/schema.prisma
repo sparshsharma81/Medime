@@ -62,7 +62,7 @@ model Availability {
   doctor    User     @relation(fields: [doctorId], references: [id], onDelete: Cascade)
   startTime DateTime
   endTime   DateTime
-  status    SlotStatus @default(AVAILABLE)
+  status    SlotStatus @default(AVAILABLE) //by default schedule hoga..pr ise cancel bhi kar sakte hai...
   
   @@index([doctorId, startTime])
 }
@@ -88,6 +88,8 @@ model Appointment {
   // Video session fields
   videoSessionId    String?  // Vonage Video API Session ID
   videoSessionToken String?  // Optional: Can store tokens if needed
+
+  //this videosessiontokens..these all are for the video calling featuere...
   
   createdAt         DateTime @default(now())
   updatedAt         DateTime @updatedAt
@@ -102,6 +104,8 @@ enum AppointmentStatus {
   CANCELLED
 }
 
+
+//for each and every transaction..we will keep the track
 model CreditTransaction {
   id                String   @id @default(uuid())
   userId            String

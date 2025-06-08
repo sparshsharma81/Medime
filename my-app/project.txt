@@ -129,3 +129,18 @@ npm install -D prisma --legacy-peer-deps
 
 after that 
 npx prisma init ---- it willl initilize prisma 
+
+
+
+in order to use prisma..we should 
+npx prisma generate
+
+npm i @prisma/client --legacy-peer-deps
+
+now in order to push...
+npx prisma migrate dev 
+
+so now we have added the database--using prisma 
+
+now it is the time to add the subscrition thing
+basically ye clerk k new update me aaya hai..subscription thing...

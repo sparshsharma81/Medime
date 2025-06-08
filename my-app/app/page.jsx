@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Stethoscope } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Pricing from "@/components/pricing"; 
 import { creditBenefits, features, testimonials } from "@/lib/data";
 
 export default function Home() {
