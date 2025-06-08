@@ -23,8 +23,12 @@ export default function RootLayout({ children }) {
           {children}
 </main>
           {/* yaha pr ham footer component add karege   */}
-          <footer>
-            <div>
+          <footer className ="bg-muted/50 py-12">
+          {/* ye basically ek basic styling hai footer ki ..taaki vo center me aa jaye.... */}
+            <div className="container mx-auto px-4 text-center text-gray-200">
+              {/* container basically ek max width provide karta hai according to the size of the screen --basically app responsive ban sake */}
+              {/* mx-auto --- this will insure that everything will be pushed inside the middle  */}
+              {/* 4 rem padding -- 4 -- 1 rem -- 16px  */}
               <p>Made with Next-js from sparsh sharma</p>
             </div>
           </footer>

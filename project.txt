@@ -1,0 +1,30 @@
+NOW WE ARE BUILDING A DOCTOR APPOINTMENT PROJECT 
+HERE THE CUSTOMER CAN BOOK A APPONTMENT FROM THE DOCTOR AVAILABLILITY
+
+I AM BUILDING THIS PROJECT USING NEXT-JS AND SHADCN UI 
+
+NEXT JS IS SIMILAR TO REACT --- BUT IT CAN BE USED FOR BOTH FRONTEND AND BACKNED 
+AND SHADCN UI OFFER PREDEFINED BUILD IN COMPONENTS 
+
+
+first we just write npx-create-app@latest --- this will initilze a empty next js app 
+
+in order to run a npx app --- npm run dev 
+
+we will be using shadcn ui--- which has many predefined build in COMPONENTS 
+so basically we need not to put so much mechanical effort and build our components 
+--which we can copy paste in our app 
+
+so in order to use the shadcn ui --- we need to first install it 
+we can do it with 
+
+npx shadcn@latest init    -----THIS IS THE WAY OF INSTALLING SHADCN UI 
+
+and if we want to use a component ..let us say button 
+then we can use it with 
+
+npx shadcn@latest add button     ----THIS WAY..WE CAN INSTALL THE BUTTON AND USE IT 
+
+
+
+so in order to install any component..we can simply use npx -shadcn@latest add componet_name     ----USING THIS..WE CAN INSTALL ANY COMPONENT USING SHADCN 
