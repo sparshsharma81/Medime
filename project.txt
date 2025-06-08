@@ -105,4 +105,7 @@ and if it is not installing..we need to add npm install @clerk/themes --legacy-p
             which simply shows when the user is signed out ..then we will show sign in button and sign up button 
             and when the user is signed in ./
             then we will show signed in button 
-            
+
+
+in next --- basically --- if we want to create a folder..then we can create it with () these symbols 
+basically --- if we create any folder inside the app..then it will form a route..so in order to prevent it..we have to create a folder like this 
