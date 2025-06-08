@@ -39,3 +39,70 @@ npx install next-themes
 
 now after adding them...now we are adding 
 npx shadcn@latest add alert badge card dialog input label select separator sonner tabs textarea
+
+
+now till now ..we have used the header and footer component with the implementation of tailwind and shadcn ui 
+so now its time to work on with AUTHENTICATION 
+
+so for that...we can use clerk
+
+CLERK --- IT IS THE MOST COMPREHENSIVE USER MANAGEMENT PLATFORM 
+
+GREAT...NOW AFTER CREATING THE AUTHENTICATION SITE ON CLERK...WE CAN CREATE A SIGN IN COMPONENT -- 
+
+BASICALLY AFTER CREATING THAT..WE CAN JUST 
+npm install @clerk/nextjs 
+
+use this to install 
+
+
+if in case it fails..as we are using react 19 ...so chances that it might get fail 
+so we can use 
+npm install @clerk/nextjs --legacy-peer-deps 
+
+so basically after installing clerk..we need to set up the environment variables...
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bXV0dWFsLW1vbmFyY2gtNjYuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_HSksPPZGnRZzQUlbLh3bSjXLkEBv9lveydcz7icaAR
+
+
+so after doing it..we have to use the this
+ import { clerkMiddleware } from '@clerk/nextjs/server';
+
+export default clerkMiddleware();
+
+export const config = {
+  matcher: [
+    // Skip Next.js internals and all static files, unless found in search params
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+    // Always run for API routes
+    '/(api|trpc)(.*)',
+  ],
+}; this is the middleware.ts which runs before our application is running 
+--this is the code which will run so that clerk can work properly
+
+we have to create a file called middleware.js ---and this is where we are writing the code which will 
+allow only specific users to enter into our application 
+
+
+
+//now basically in order to use the dark theme of clerk..we have to downlaod it..which we can using the 
+npm install @clerk/themes 
+
+and if it is not installing..we need to add npm install @clerk/themes --legacy-peer 
+
+
+
+
+ <SignedOut>
+              <SignInButton />
+              <SignUpButton />
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn> 
+            this is the basic of clerk 
+            which simply shows when the user is signed out ..then we will show sign in button and sign up button 
+            and when the user is signed in ./
+            then we will show signed in button 
+            
