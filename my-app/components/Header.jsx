@@ -12,7 +12,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { checkUser } from "@/lib/checkUser";
 import { Badge } from "./ui/badge";
 import { checkAndAllocateCredits } from "@/actions/credits";
-import Image from "next/image";
+import Image from "next/image";             
 
 export default async function Header() {
   const user = await checkUser();

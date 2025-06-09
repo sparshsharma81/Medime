@@ -50,5 +50,16 @@
     "prisma": "^6.8.2",
     "tailwindcss": "^4.1.7",
     "tw-animate-css": "^1.2.9"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "middleware.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/sparshsharma81/medime1.git"
+  },
+  "author": "",
+  "license": "ISC"
 }
