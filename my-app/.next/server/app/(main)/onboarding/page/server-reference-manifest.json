@@ -1,0 +1,93 @@
+{
+  "node": {
+    "401395c68b252fdc84c45bc50cb45d5abd79d74911": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "rsc"
+      }
+    },
+    "6036006d638f2753572fb1337f6347d31bb3f739e1": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "rsc"
+      }
+    },
+    "7f1bdb6a1026de30d1f3d2968beb4cd31126a0eaf1": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "action-browser"
+      }
+    },
+    "7f7242d5aca54bf53cacfeec1b59c67338d281ea49": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "action-browser"
+      }
+    },
+    "7fb5eba04a6c5874d1280fab213d2c994a9a8edc51": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "action-browser"
+      }
+    },
+    "7f2344a353bf11455f3b22cb894be71b346a35fdde": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "action-browser"
+      }
+    },
+    "008d949c18d1826ff90bd2752718005f3cf1b94b3c": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "rsc"
+      }
+    },
+    "40c317832edc1fd2faaba035e3de7f601aad6ef3b1": {
+      "workers": {
+        "app/(main)/onboarding/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/onboarding/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/onboarding.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/onboarding/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

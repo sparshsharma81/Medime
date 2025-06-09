@@ -1,0 +1,82 @@
+{
+  "node": {
+    "403a54040d2372401b190b4b8e8b25e7262ec63fd6": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "rsc"
+      }
+    },
+    "6010277153f2773c4d5fe1ca0fa6c6fd5b347e64e8": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "rsc"
+      }
+    },
+    "7f0d799f997d8345375ede830ba9afcdb6782f54de": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "action-browser"
+      }
+    },
+    "7fbb08c29d6508d7a019ca3ae5c805c819cf14df3c": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "action-browser"
+      }
+    },
+    "7fc673896b7fbec1ab7950408cc70e447ff7b7c41a": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "action-browser"
+      }
+    },
+    "7fd5c819e857d1dd72abc35b5d0cbe97f6aedca912": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "action-browser"
+      }
+    },
+    "40fc7a4cb9753e8ab862921b465e3830c3cfdc1199": {
+      "workers": {
+        "app/(main)/doctors/[specialty]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(main)/doctors/[specialty]/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/credits.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/actions/doctors-listing.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(main)/doctors/[specialty]/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
