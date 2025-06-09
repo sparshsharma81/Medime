@@ -1,6 +1,5 @@
 {
-  "/(main)/doctors/[specialty]/page": "app/(main)/doctors/[specialty]/page.js",
-  "/(main)/doctors/page": "app/(main)/doctors/page.js",
+  "/(main)/onboarding/page": "app/(main)/onboarding/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }

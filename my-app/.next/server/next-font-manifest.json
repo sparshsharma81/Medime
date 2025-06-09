@@ -1,9 +1,6 @@
 {
   "app": {
-    "[project]/app/(main)/doctors/[specialty]/page": [
-      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2"
-    ],
-    "[project]/app/(main)/doctors/page": [
+    "[project]/app/(main)/onboarding/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2"
     ],
     "[project]/app/page": [

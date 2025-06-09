@@ -5,7 +5,7 @@ module.exports = {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-/* __next_internal_action_entry_do_not_use__ [{"008d949c18d1826ff90bd2752718005f3cf1b94b3c":"getCurrentUser","40c317832edc1fd2faaba035e3de7f601aad6ef3b1":"setUserRole"},"",""] */ __turbopack_context__.s({
+/* __next_internal_action_entry_do_not_use__ [{"00b47c3de4b5fc8e37fd3a077c1072d1f40c9dedc8":"getCurrentUser","404896f589eaf26cf54f582293aadc816e46e07b56":"setUserRole"},"",""] */ __turbopack_context__.s({
     "getCurrentUser": (()=>getCurrentUser),
     "setUserRole": (()=>setUserRole)
 });
@@ -112,8 +112,8 @@ async function getCurrentUser() {
     setUserRole,
     getCurrentUser
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setUserRole, "40c317832edc1fd2faaba035e3de7f601aad6ef3b1", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getCurrentUser, "008d949c18d1826ff90bd2752718005f3cf1b94b3c", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(setUserRole, "404896f589eaf26cf54f582293aadc816e46e07b56", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(getCurrentUser, "00b47c3de4b5fc8e37fd3a077c1072d1f40c9dedc8", null);
 }}),
 "[project]/app/(main)/onboarding/layout.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";

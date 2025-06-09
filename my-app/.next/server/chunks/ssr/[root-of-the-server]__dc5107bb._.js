@@ -310,7 +310,7 @@ function Badge({ className, variant, asChild = false, ...props }) {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-/* __next_internal_action_entry_do_not_use__ [{"403a54040d2372401b190b4b8e8b25e7262ec63fd6":"checkAndAllocateCredits","6010277153f2773c4d5fe1ca0fa6c6fd5b347e64e8":"deductCreditsForAppointment"},"",""] */ __turbopack_context__.s({
+/* __next_internal_action_entry_do_not_use__ [{"40ac5cbe72a8f165ef405ff7c23f447f382f38ea17":"checkAndAllocateCredits","607116fad60405ba82dd948d4587cc385378015b5b":"deductCreditsForAppointment"},"",""] */ __turbopack_context__.s({
     "checkAndAllocateCredits": (()=>checkAndAllocateCredits),
     "deductCreditsForAppointment": (()=>deductCreditsForAppointment)
 });
@@ -499,8 +499,8 @@ async function deductCreditsForAppointment(userId, doctorId) {
     checkAndAllocateCredits,
     deductCreditsForAppointment
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(checkAndAllocateCredits, "403a54040d2372401b190b4b8e8b25e7262ec63fd6", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deductCreditsForAppointment, "6010277153f2773c4d5fe1ca0fa6c6fd5b347e64e8", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(checkAndAllocateCredits, "40ac5cbe72a8f165ef405ff7c23f447f382f38ea17", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(deductCreditsForAppointment, "607116fad60405ba82dd948d4587cc385378015b5b", null);
 }}),
 "[project]/components/Header.jsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
