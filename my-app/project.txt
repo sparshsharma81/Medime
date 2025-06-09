@@ -179,3 +179,16 @@ npm i react-hook-form zod @hookform/resolver
 zod will help us to manage and create the schema of our app --writing validatations ..providing erroros 
 
 @hookform/resolver --- it will simply help us to connect to react-hook-form with zod 
+
+
+npm i react-spinner ----- basically this is the react spinnner ...
+
+
+
+now in order to book appointment..we will be using vonage...
+vonage is used for video call 
+
+npm i @vonage/auth @vonage/server-sdk 
+ this vonage/auth is basically which we have entered in the env file 
+ and the vonage/server-sdk will help us to generate the session id 
+ 
