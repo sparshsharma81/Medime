@@ -7,7 +7,7 @@ import { revalidatePath } from "next/cache";
 /**
  * Sets the user's role and related information
  */
-export async function setUserRole(formData) {
+export async function setUserRole(formData) {  //set userole ek api hai
   const { userId } = await auth();
 
   if (!userId) {

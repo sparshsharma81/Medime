@@ -22,6 +22,7 @@ export default async function OnboardingLayout({ children }) {
         redirect("/doctor/verification");
       }
     } else if (user.role === "ADMIN") {
+      //agar user admin hoga....to admin wale page pr direct ho jayega...
       redirect("/admin");
     }
   }

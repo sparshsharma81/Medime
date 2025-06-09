@@ -165,3 +165,17 @@ ROUTING IN NEXTJS
 [folder] --- dynamic route segment 
 [ ...folder] --- catch-all route segment 
 [[ ...folder]] -- optional catch -all route segment 
+
+
+
+great..now we have build the databbase model...basic things..
+now we 
+'
+
+will install the form librabry to manage the form 
+
+npm i react-hook-form zod @hookform/resolver
+//react-hook-form will help us to manage the form without writing a lot of things...
+zod will help us to manage and create the schema of our app --writing validatations ..providing erroros 
+
+@hookform/resolver --- it will simply help us to connect to react-hook-form with zod 

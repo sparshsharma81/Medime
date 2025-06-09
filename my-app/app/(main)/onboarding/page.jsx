@@ -1,4 +1,4 @@
-"use client";
+"use client"; //ye hai ek client component..to ham use client use karege.... 
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -29,7 +29,15 @@ import useFetch from "@/hooks/use-fetch";
 import { useEffect } from "react";
 
 export default function OnboardingPage() {
-  const [step, setStep] = useState("choose-role");
+  const [step, setStep] = useState("choose-role"); 
+  //use state ek variable ki thrah hota hai...
+  //currently we are in the user role...
+
+  //now the user will enter the data...so in order to manage it..we will be using react-from manager...
+
+  //npm i react-hook-form zod
+  //zod will help us reading the schema of our app
+  // npm i react-hook-form zod @hookform/resolver
   const router = useRouter();
 
   // Custom hook for user role server action
@@ -40,14 +48,14 @@ export default function OnboardingPage() {
     register,
     handleSubmit,
     formState: { errors },
-    setValue,
-    watch,
-  } = useForm({
-    resolver: zodResolver(doctorFormSchema),
+    setValue, //set custom values....
+    watch, //watch a particular field....
+  } = useForm({ //this useform is react-hook-form
+    resolver: zodResolver(doctorFormSchema), //this is zod resolveer......
     defaultValues: {
       specialty: "",
       experience: undefined,
-      credentialUrl: "",
+      credentialUrl: "", //yaha pr default values enter hogi...
       description: "",
     },
   });
@@ -72,7 +80,7 @@ export default function OnboardingPage() {
   }, [data]);
 
   // Added missing onDoctorSubmit function
-  const onDoctorSubmit = async (data) => {
+  const onDoctorSubmit = async (data) => { //this is where we are writing the components of form 
     if (loading) return;
 
     const formData = new FormData();
